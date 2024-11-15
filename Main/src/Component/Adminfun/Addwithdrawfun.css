@@ -1,0 +1,105 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.mainaddandwith   p{
+    position: relative;
+    top: 20px;
+    font-size:2.5rem;
+    text-align: center;
+    
+    color:  #0075be;
+    background-color: silver;
+   
+}
+.mainaddandwith label{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    
+}
+.mainaddandwith input{
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 25px;
+    
+}
+.mainaddandwith button{
+    margin-left: 10px;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px; 
+    background-color: #0075be;
+    color: white;
+}
+.mainaddandwith button:hover{
+    color: #f6821e;
+}
+
+.addwithuser h2{
+    margin-left: 10px;
+    text-align: center;
+    background-color: #0075be;
+    color: white;
+}
+
+.functions {
+    display: flex;
+    width: 100%px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.functions button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.allfunction{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.allfunction label{
+font-size: 1.6rem;
+}
+.allfunction input{
+    width: 200px;
+    border-radius: 10px;
+    height: 30px;
+
+}
+.allfunction button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0075be;
+
+}
+.allfunction button:hover{
+    color: #f6821e;
+}
+.addfunctions{
+    display: none;
+}
+.withfunctions{
+    display: none;
+}
+.addwithuser{
+    display: none;
+}
+.with{
+    display: none;
+}
+.add {
+    display: none;
+}
+#addnotification{
+    display: none;
+color: #f6821e;
+}
+
+#withnotification{
+    color: #f6821e;
+    display: none;
+}

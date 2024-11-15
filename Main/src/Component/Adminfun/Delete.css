@@ -1,0 +1,46 @@
+
+.delete  p{
+    position: relative;
+    top: 20px;
+    font-size:2.5rem;
+    text-align: center;
+    color:  #0075be;
+    background-color: silver;
+   
+}
+
+.delete label{
+  
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.delete input{
+    margin-left: 10px;
+    height: 25px;
+}
+.delete input{
+    border-radius: 10px;
+}
+.delete button{
+    margin-left: 10px;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px; 
+    background-color: #0075be;
+    color: white;
+}
+.delete button:hover{
+    color: #f6821e;
+}
+.Accdeletesuccess{
+    text-align: center;
+    color: #f6821e;
+    display: none;
+
+}
+
+.Invaliddelete{
+    display: none;
+    text-align: center;
+    color: #f6821e;
+}

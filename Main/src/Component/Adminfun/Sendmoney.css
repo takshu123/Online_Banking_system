@@ -1,0 +1,91 @@
+
+.Sendmain  p{
+    position: relative;
+    top: 20px;
+    font-size:2.5rem;
+    text-align: center;
+    color:  #0075be;
+    background-color: silver;
+   
+}
+
+.sendmoneyfun{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    
+    justify-content: space-evenly;
+
+}
+
+.sendmoneyfun p{
+ font-size: 1.8rem;   
+}
+.sendmoneyfun input{
+    font-size: 1rem;
+}
+.sendingamount{
+    width: 210px;
+    height: 100px;
+    margin: auto;
+}
+.sendingamount input,button{
+ 
+  
+    font-size: 1.2rem;
+}
+.sendingamount button{
+    border-radius: 10px;
+    border: none;
+    background-color: #0075be;
+    color: white;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 65px;
+}
+.sendingamount button:hover{
+    color: #f6821e;
+}
+.summary{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+.summary table{
+    font-size: 1.5rem;
+    padding: 20px;
+    border-spacing: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem rgb(236, 236, 236);
+    border-radius: 10px;
+    width: 600px;
+}
+
+.summary table th{
+    background-color: #0075be;
+    color: white;
+    border-radius: 10px;
+}
+.summary table td{
+    background-color:#f1f1f1;
+    border-radius: 10px;
+}
+.wrongsummary{
+    display: none;
+width: 200px;
+font-size: 1rem;
+    padding: 20px;
+    border-spacing: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem rgb(236, 236, 236);
+    border-radius: 10px;
+    color: #f6821e;
+    margin: auto;
+    margin-top: 50px;
+    
+}

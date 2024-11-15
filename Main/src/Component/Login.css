@@ -1,0 +1,71 @@
+.users{
+
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0 0 0.8rem rgb(252, 251, 251);
+    background-color: rgb(239, 238, 238);
+    border-radius: 10px;
+}
+
+/* blue: #0075be 
+orange: #f6821e*/
+.loginheading{
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    background-color: #0075be ;
+    font-size: 2rem;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    color: #c6c6c6;
+}
+.loginheading img{
+    position: relative;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+   background: transparent;
+   border-radius: 50%;
+   box-shadow: 0 0 1rem #ffffff;
+}
+.users input{
+    border: none;
+    width: 350px;
+    height: 40px;
+    outline: none;
+    font-size: 1.3rem;
+}
+.users i{
+    margin-left: 5px;
+}
+
+.users td{
+   position: relative;
+   left: 50px;
+    box-shadow: 0 0 1rem rgb(217, 215, 215);
+     border-radius: 10px;
+    font-size: 1.5rem;
+    width: 400px;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.users button{
+    width: 130px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: #0075be;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+
+}
+.users button:hover{
+    color: #f6821e;
+}
